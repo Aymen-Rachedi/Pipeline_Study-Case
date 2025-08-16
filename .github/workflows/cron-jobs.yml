@@ -37,8 +37,8 @@ jobs:
       - name: Install Dependencies
         run: pip install -r Needs.txt
 
-      - name: Run ETL Script
-        run: python etl_pipeline.py
+      # - name: Run ETL Script
+      #   run: python etl_pipeline.py
         # env:
         #   DB_HOST: ${{ secrets.DB_HOST }}
         #   DB_USER: ${{ secrets.DB_USER }}
